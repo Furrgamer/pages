@@ -1,0 +1,47 @@
+body{
+    padding: 7px 5em 0 2em;
+}
+h1  {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+.button{
+    background-color: #eed4d4;
+    color: #000000;
+    padding: 10px;
+    border-radius: 100px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 20px;
+    margin:15px
+}
+
+header {
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+
+.nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: 0.5s;
+}
+
+a:hover {
+    background-color: blue;
+}
+
